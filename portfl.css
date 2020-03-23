@@ -1,0 +1,237 @@
+@charset "utf-8";
+/* CSS Document */
+/*inicio*/
+body{
+	color: #f4f4f4;
+	font-family: 'Lato', sans-serif;
+}
+#p1{
+	background-color: #1C023D;
+}
+header{
+	background-color: rgba(160,51,248,0.50);
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	padding: 13px 0;
+}
+.head{
+	background-color: rgba(160,51,248,0.50);
+	z-index: 10;
+	color: #1C023D;
+	font-weight: 600;
+	font-size: 20px;
+}
+.nav-link{
+	color: #1C023D;
+	font-weight: 600;
+	font-size: 20px;
+}
+.nav-link:hover{
+	color: #F4E92A;
+}
+.color{
+	background-color: #1C023D;
+	padding: 10%;
+}
+.titulo{
+	font-family: 'Bigshot One', cursive;
+	color: #F4E92A;
+	font-size: 100px;
+}
+.subtitulo{
+	font-family: 'Bigshot One', cursive;
+	color: #261100;
+	font-size: 50px;
+	text-align: center;
+}
+.txt-blanco{
+	color: #f4f4f4;
+	font-size: 23px;
+	font-family: 'Lato', sans-serif;
+}
+p{
+	font-family: 'Lato', sans-serif;
+	color: #f4f4f4;
+	font-size: 17px;
+}
+
+.hed{
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+.mg-top{
+	margin-top: 250px;
+}
+.logo{
+	background-image: url("imgs/logo.png");
+	background-position: center;
+	background-size: 260px;
+	background-repeat: no-repeat;
+	height: 300px;
+	background-color: #34035C;
+	padding: 300px;
+	border-radius: 2000px 400px;
+	margin-top: 40px;
+}
+
+/*inicio*/
+
+/*pt2*/
+#pt2{
+	background-color: #f4f4f4;
+	padding: 50px 0 0;
+}
+.story{
+	margin-bottom: 70px;
+}
+.texto{
+	color: #261100;
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+	text-align: center;
+}
+.space-1{
+	margin: 15px 0;
+}
+
+.p1{
+	background-image: url("imgs/BBQ1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 800px;
+}
+.p2{
+	background-image: url("imgs/BBQ3.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 800px;
+}
+.p3{
+	background-image: url("imgs/BBQ2.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 800px;
+}
+.p4{
+	background-image: url("imgs/BBQ4.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 800px;
+}
+.p5{
+	background-image: url("imgs/BBQ5.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 800px;
+}
+.p6{
+	background-image: url("imgs/texturaspq.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 800px;
+}
+/*pt2*/
+
+/*stripes pt3*/
+#pt3{
+	padding: 180px 0;
+}
+#pt3 h1{
+	margin-bottom: 60px;
+}
+.vertical-stripes {
+            background: repeating-linear-gradient( 
+            90deg,
+            #ff9933,
+            #ff9933 80px,
+            #845535 80px,
+            #845535 160px);
+			background-size: cover;
+            height: 100%;
+            width: 100%;
+			margin: 0;
+        }
+.servs{
+	color: #f4f4f4;
+	background-color: #FF9933;
+	font-size: 50px;
+	padding: 25px 40%;
+	text-align: center;
+	border-radius: 35px;
+	margin-bottom: 0;
+}
+.servicios-txt{
+	font-size: 20px;
+	color: #f4f4f4;
+	text-align: center;
+	background-color: #845535;
+	padding: 30px 20%;
+	margin-left: 10%;
+	border-color: #FF9933;
+}
+/*stripes pt3*/
+/*contactos*/
+#pt4{
+	background-color: #1C023D;
+	padding: 80px 0 1px;
+}
+.buttun{
+	background-color: #353535;
+	color: #f4f4f4;
+	padding: 10px 40px;
+	border-color: #353535;
+	border-radius: 20px;
+	font-family: 'Lato', sans-serif;
+}
+.buttun:hover{
+	color: #1C023D;
+	background-color: #F4E92A;
+}
+#social{
+	background-color: #1C023D;
+	padding: 1px;
+}
+.fa-youtube{
+	color: #727272;
+	font-size: 40px;
+	padding: 10px 5px;
+}
+.fa-youtube:hover{
+	color: #f4f4f4;
+}
+.fa-facebook{
+	color: #727272;
+	font-size: 40px;
+	padding: 10px 5px;
+}
+.fa-facebook:hover{
+	color: #f4f4f4;
+}
+.fa-twitter{
+	color: #727272;
+	font-size: 40px;
+	padding: 10px 5px;
+}
+.fa-twitter:hover{
+	color: #f4f4f4;
+}
+.fa-linkedin-in{
+	color: #727272;
+	font-size: 40px;
+	padding: 10px 5px;
+}
+.fa-linkedin-in:hover{
+	color: #f4f4f4;
+}
+/*contactos*/
+
+
+
+
